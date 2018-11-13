@@ -34,17 +34,19 @@
 </style>
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-		<a class="navbar-brand" href="#"> <img src="bootstrap-solid.svg"
-			width="30" height="30" class="d-inline-block align-top" alt="">
-			Bootstore
-		</a>
-	</nav>
+	<div class="bg-primary">
+		<nav class=class= "navbarnavbar-default" >
+			<a class="navbar-brand" href="#"> <img src="bootstrap-solid.svg"
+				width="30" height="30" class="d-inline-block align-top" alt="">
+				<span class="text-white">BookStore</span>
+			</a>
+		</nav>
+	</div>
 	<div class="container">
 
 		<div id="center">
 			<div class="container">
-				<form action="login" method="POST">
+				<form action="signup" method="POST">
 					<h4 class="text-center">Welcome to BookStrore</h4>
 					<br>
 					<div class="form-group row">
@@ -62,12 +64,12 @@
 						</div>
 					</div>
 					<div class="form-group row text-center">
-						<label class="col-sm-2 col-form-label">New user? <a
-							href="signup.jsp">signUp</a></label>
+						<label class="col-sm-2 col-form-label">Already a user? <a
+							href="login.jsp">login</a></label>
 					</div>
 					<div class=container-fluid">
 						<div class="col-sm-12 text-center">
-							<button class="btn btn-primary btn-block" title="Login">Login</button>
+							<button class="btn btn-primary btn-block" title="Login">SignUp</button>
 						</div>
 					</div>
 				</form>

@@ -12,7 +12,9 @@ import com.karthik.book.dto.User;
 
 public class MysqlService {
 	public static void main(String[] args) throws Exception {
-		MysqlService dbService = new MysqlService();
+			UserService service = new UserService();
+//			System.out.println("isValiduserName: " + service.isValidUserId("ja"));
+			service.getUserById("kskarthik08");
 	}
 
 }
